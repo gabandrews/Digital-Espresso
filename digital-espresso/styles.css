@@ -1,0 +1,136 @@
+.navbar a {
+    color: #815355;
+    text-decoration: none;
+}
+.navbar a:hover {
+     color:#7899d4;
+     text-decoration:none;
+     cursor:pointer;
+}
+h1 {
+  color: #EFE6DD;
+  font-family: "Didot";
+  font-size: 50px;
+}
+h3 {
+  font-family: "Andale Mono", monospace;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #EFE6DD;
+}
+nav p {
+  float:left;
+  line-height: 14px;
+  font-family: "Didot";
+  text-transform: capitalize;
+  font-size: 30px
+}
+nav img {
+  height: 30px;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.main-nav--fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.main-nav {
+  background-color: #efe6dd;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  padding-bottom: 5px;
+}
+.nav-titles {
+  text-align: right;
+  font-family: "Andale Mono", monospace;
+  color: #815355;
+  line-height: 75px;
+  text-transform:uppercase;
+  font-size: 16px
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column img {
+  height: 150px;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+.column {
+  flex: 50%;
+  padding-top: 80px;
+}
+.footer {
+  text-align: right;
+  font-family: "Didot";
+  color: #efe6dd;
+  background-color: #815355;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.branches {
+  padding-top: 80px;
+}
+.table {
+  padding-top: 70px;
+  color: #EFE6DD;
+  font-family: "Andale Mono", monospace;
+  border-spacing: 10px 4;
+}
+.table img {
+  width:50px;
+  height:auto;
+  align: center;
+}
+a {
+  color: #efe6dd;
+  text-decoration:none;
+}
+a:hover {
+     color:#7899d4;
+     text-decoration:none;
+     cursor:pointer;
+}
+th {
+  font-family: "Didot";
+  font-size: 30px;
+}
+.bio {
+  padding-top: 80px;
+  color: #EFE6DD;
+  font-family: "Andale Mono", monospace;
+}
+.founders {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-auto-rows: minmax (100px, auto);
+  padding-bottom: 40px;
+  color: #efe6dd;
+  font-family: "Didot";
+  font-size: 30px;
+}
+.founders img {
+  width:200px;
+  height: auto;
+}
+.productpage {
+  padding-top: 70px;
+  color: #efe6dd;
+  font-family: "Andale Mono", monospace;
+}
+.productpage img {
+  width:200px;
+  height: auto;
+}
