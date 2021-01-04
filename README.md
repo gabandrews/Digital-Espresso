@@ -1,2 +1,2 @@
-# Digital-Espresso
-ITMGT45 Digital Espresso Intro to HTML Lab
+# ITMGT 45: The Digital Economy
+2 BS ITE - First Sem, Q2
